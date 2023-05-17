@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        table, th, td {border: 1px solid black;}
+        </style>
+</head>
+<body>
+        <table >
+                <caption>Список товаров</caption>
+                <tbody>
+                <tr>
+                <th align="center">Наименование</th> <th align="center">Цена</th>
+                <th align="center">Колличество</th> <th align="center">Сумма</th>
+                </tr>
+                
+                <tr>
+                <td>Ручка-шариковая</td> <td>25,00</td> <td>10</td> <td>250,00</td>
+                </tr>
+
+                <tr>
+                <td>Карандаш</td> <td>15,00</td> <td>10</td> <td>150,00</td>
+                </tr>
+
+                <tr>
+                        <td>Блокнот</td>
+                        <td>50,00</td>
+                        <td>20</td>
+                        <td>1000,00</td>
+                        </tr>
+                </tbody>
+                <tr>
+                <td colspan="2" style="text-align: right;">Итог:</td>
+                <td colspan="2" style="text-align:center;">1400</td>
+                </tr>
+        </table>
+        
+        
+        <table style="border-style:hidden;margin-top: 50px; margin-left: 500px; border: 14px solid rgb(153, 136, 228); width: 80%;" >
+                <caption>Литература</caption>
+                <tbody>
+                <tr>
+                <th bgcolor="red" align="center">Название</th> <th align="center">Жанр</th>
+                <th align="center">Колличество томов</th> <th align="center">Статус</th>
+                </tr>
+                <tbody style="height: 5cm;">
+                <tr>
+                <td>Пустоцвет</td> <td>1</td> <td>Драма,школа,трилер</td> <td>Завершён</td>
+                </tr>
+                </tbody>
+                <tbody ><tr>
+                <td style=" border-color: blueviolet;">Я и ты</td> <td rowspan="2" bgcolor="#FBF0DB">3</td> <td>Романтика,фэнтези</td> <td>Продолжается</td>
+                </tr>
+                </tbody>
+                <tr>
+                <td style="border: dotted; border-spacing: 5px;">Бабочка Чо Мо Ран</td> <td rowspan="2" bgcolor="#FBF0DB">10</td><td >трилер, ужасы,фэнтези</td> <td>Заброшен</td>
+                </tr>
+                </tbody>
+                <tr>
+                <td colspan="4" style="text-align:center;">То что люблю перечитывать</td>
+                </tr>
+                <tbody style="border-style:dotted;">
+                <tr>
+                        <td style="border-color:chartreuse;">Твоя вечная ложь</td> <td style="background-color: aqua;">1</td><td style="height: 10cm;">трилер, драма, романтика</td> <td>Завершён</td>
+                 </tr>
+                 <tr>
+                        <td>Ведьмы в небе</td> <td>10</td><td>трилер, ужасы,повседневность</td> <td>Продолжается</td>
+                </tr>
+                <tr>
+                        <td>Зверь с цветами</td>
+                        <td>4</td>
+                        <td rowspan="2">Романтика,фури, повседневность</td>
+                        <td rowspan="2">Завершён</td>
+                       </tr>
+                       <tr>
+                        
+                        <td>Боко на Пико</td>
+                        <td>2</td>
+                        
+                        </tr>
+
+        </table>
+                </tbody>
+</body>
+</html>

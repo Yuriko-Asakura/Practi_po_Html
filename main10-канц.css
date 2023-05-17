@@ -1,0 +1,112 @@
+@media(max-width:960px) {
+  .for-large-xx {
+    display:none;
+  }
+}
+
+.showmobile { display: none; }
+@media only screen
+and (min-device-width : 299px)
+and (max-device-width : 500px){ .showmobile { display: inline; }}
+
+.showm { display: none; }
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 899px){ .showm { display: inline; }}
+
+body{
+  background:url(канц.png);
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: opacity(20%);
+}
+
+.fonn
+{
+margin-right: 3cm;
+text-align:center;
+font-size: 45px;
+text-shadow:  rgb(251, 255, 0) 5px 2px 2px, rgb(255, 254, 213) -5px -3px 2px, rgb(0, 247, 255) -8px 4px 5px, rgb(0, 38, 255) 16px -1px 5px, #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+#cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+#cad5e2 5px 5px 0;
+font-family:fantasy;
+color: rgb(255, 0, 0);
+margin-bottom: -1cm;
+}
+.tovar
+{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.zadnik
+{
+  margin-top: 0.1cm;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  height: 1.3cm;
+  width: 12cm;
+  border-radius: 1cm;
+}
+.perehod
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 3cm;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.grid{
+	padding: 16px 15px;
+	text-align: center;
+	font-size: 25px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgb(0, 0, 0);
+}
+.center
+{
+  margin-left: 3cm;
+  margin-bottom: 1cm;
+}
+.rasp
+{
+  text-align: center;
+  font-size: 40px;
+  margin-left: 1cm;
+}
+
+.rasp1
+{
+  text-align: center;
+  font-size:2cm;
+  margin-left: 3cm;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 300px 499px 900px;
+	grid-template-rows: 100px 400px;
+	grid-gap: 350px;
+	grid-auto-flow: column;
+}
+
+.grid2{
+	padding: 16px 15px;
+	text-align: center;
+	font-size: 25px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgb(0, 0, 0);
+}
+
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 150px 499px 900px;
+	grid-template-rows: 100px 400px;
+	grid-gap: 550px;
+	grid-auto-flow: column;
+}
